@@ -2,6 +2,7 @@
 body {
     font-family: 'Crimson Text', 'Source Han Serif CN', 'source-han-serif-sc', serif;
 }
+.container { width: 100% !important; }
 #preloader {
     position: fixed;
     top: 0;
@@ -97,6 +98,7 @@ body {
     padding: 0 1rem 1rem 1rem;
     cursor: pointer;
     margin-bottom: 1rem;
+    min-width: 110.5px;
 }
 #colors .col-2 .col-12 {
     padding: 0;
@@ -153,6 +155,7 @@ body {
     border: 0;
     text-align: center;
     display: none;
+    min-width: 160px;
 }
 #details .card-body {
     padding: 0 2rem 1rem 3rem;

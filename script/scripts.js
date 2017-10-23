@@ -32,47 +32,48 @@ $( document ).ready(function() {
   $('#colors .card, #details .card, #infors .card').fadeIn('slow');
 
   var screenHeight = window.innerHeight;
+  console.log(screenHeight);
   if (screenHeight<=800) {
     $('#details .dd-c').peity('donut', {
       fill: ["#0d5661", "#eee"],
-      innerRadius: 36,
-      radius: 40
+      innerRadius: 26,
+      radius: 30
     });
     $('#details .dd-m').peity('donut', {
       fill: ["#cb1b45", "#eee"],
-      innerRadius: 36,
-      radius: 40
+      innerRadius: 26,
+      radius: 30
     });
     $('#details .dd-y').peity('donut', {
       fill: ["#ffc408", "#eee"],
-      innerRadius: 36,
-      radius: 40
+      innerRadius: 26,
+      radius: 30
     });
     $('#details .dd-k').peity('donut', {
       fill: ["#1c1c1c", "#eee"],
-      innerRadius: 36,
-      radius: 40
+      innerRadius: 26,
+      radius: 30
     });
   } else {
     $('#details .dd-c').peity('donut', {
       fill: ["#0d5661", "#eee"],
-      innerRadius: 26,
-      radius: 30
+      innerRadius: 36,
+      radius: 40
     });
     $('#details .dd-m').peity('donut', {
       fill: ["#cb1b45", "#eee"],
-      innerRadius: 26,
-      radius: 30
+      innerRadius: 36,
+      radius: 40
     });
     $('#details .dd-y').peity('donut', {
       fill: ["#ffc408", "#eee"],
-      innerRadius: 26,
-      radius: 30
+      innerRadius: 36,
+      radius: 40
     });
     $('#details .dd-k').peity('donut', {
       fill: ["#1c1c1c", "#eee"],
-      innerRadius: 26,
-      radius: 30
+      innerRadius: 36,
+      radius: 40
     });
   }
 
