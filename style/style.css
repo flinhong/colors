@@ -180,9 +180,9 @@ body {
     float: left;
     border-radius: 0;
 }
-@media screen and (max-height: 768px) {
+@media screen and (max-height: 800px) {
     #details .vertical {
-        height: 12rem;
+        height: 15rem;
     }
 }
 #details .vertical .progress-bar {

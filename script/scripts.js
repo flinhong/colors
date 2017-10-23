@@ -31,26 +31,50 @@ $( document ).ready(function() {
 
   $('#colors .card, #details .card, #infors .card').fadeIn('slow');
 
-  $('#details .dd-c').peity('donut', {
-    fill: ["#0d5661", "#eee"],
-    innerRadius: 36,
-    radius: 40
-  });
-  $('#details .dd-m').peity('donut', {
-    fill: ["#cb1b45", "#eee"],
-    innerRadius: 36,
-    radius: 40
-  });
-  $('#details .dd-y').peity('donut', {
-    fill: ["#ffc408", "#eee"],
-    innerRadius: 36,
-    radius: 40
-  });
-  $('#details .dd-k').peity('donut', {
-    fill: ["#1c1c1c", "#eee"],
-    innerRadius: 36,
-    radius: 40
-  });
+  var screenHeight = window.innerHeight;
+  if (screenHeight<=800) {
+    $('#details .dd-c').peity('donut', {
+      fill: ["#0d5661", "#eee"],
+      innerRadius: 36,
+      radius: 40
+    });
+    $('#details .dd-m').peity('donut', {
+      fill: ["#cb1b45", "#eee"],
+      innerRadius: 36,
+      radius: 40
+    });
+    $('#details .dd-y').peity('donut', {
+      fill: ["#ffc408", "#eee"],
+      innerRadius: 36,
+      radius: 40
+    });
+    $('#details .dd-k').peity('donut', {
+      fill: ["#1c1c1c", "#eee"],
+      innerRadius: 36,
+      radius: 40
+    });
+  } else {
+    $('#details .dd-c').peity('donut', {
+      fill: ["#0d5661", "#eee"],
+      innerRadius: 26,
+      radius: 30
+    });
+    $('#details .dd-m').peity('donut', {
+      fill: ["#cb1b45", "#eee"],
+      innerRadius: 26,
+      radius: 30
+    });
+    $('#details .dd-y').peity('donut', {
+      fill: ["#ffc408", "#eee"],
+      innerRadius: 26,
+      radius: 30
+    });
+    $('#details .dd-k').peity('donut', {
+      fill: ["#1c1c1c", "#eee"],
+      innerRadius: 26,
+      radius: 30
+    });
+  }
 
   function hexToRgb(hex) { //https://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb
     // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
