@@ -18,7 +18,9 @@ layout: null
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
   <body>
-    <div id="preloader"></div>
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
     <div class="container main">
       <div class="row">
 
@@ -41,15 +43,15 @@ layout: null
                 <div class="card-text rgb-line">
                   
                   <div class="progress vertical">
-                    <div class="progress-bar bg-r" style="height: 86%"></div>
+                    <div class="progress-bar progress-bar-striped bg-r" style="height: 86%">220</div>
                   </div>
                   
                   <div class="progress vertical">
-                    <div class="progress-bar bg-g" style="height: 62%"></div>
+                    <div class="progress-bar progress-bar-striped bg-g" style="height: 62%">159</div>
                   </div>
                   
                   <div class="progress vertical">
-                    <div class="progress-bar bg-b" style="height: 70%"></div>
+                    <div class="progress-bar progress-bar-striped bg-b" style="height: 70%">180</div>
                   </div>
                   
                 </div>
@@ -71,7 +73,9 @@ layout: null
         </div>
       </div>
       <footer>
-        <p>© 2017 Frank Lin. <br>参考：<a href="http://nipponcolors.com">Nipponcolors</a></p>
+        <p>© 2017 Frank Lin. Some rights reserved.
+          <br>参考：<a href="http://nipponcolors.com" target="_blank">Nipponcolors</a>. 源码：<a href="https://github.com/flinhong/colors" target="_blank">GitHub Repo</a>
+        </p>
       </footer>
     </div>
 
@@ -80,6 +84,7 @@ layout: null
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="/script/jquery.peity.js"></script>

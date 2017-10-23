@@ -1,17 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Caudex');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 body {
-    font-family: 'Caudex', 'Source Han Serif CN', 'source-han-serif-sc', serif;
+    font-family: 'Crimson Text', 'Source Han Serif CN', 'source-han-serif-sc', serif;
 }
-div#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #333 url("loading.gif")
-    no-repeat center center;
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    z-index: 10000;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 .card {
     background-color: transparent;
@@ -115,9 +177,14 @@ div#preloader {
     height: 20rem;
     margin: 0 0.55rem;
     float: left;
+    border-radius: 0;
 }
 #details .vertical .progress-bar {
     width: 100%;
+}
+#details .rgb-line .progress-bar {
+    writing-mode: vertical-lr;
+    font-size: smaller;
 }
 #infors .card {
     border: 0;
@@ -133,12 +200,13 @@ div#preloader {
     font-weight: bold;
 }
 #infors .card-text {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     text-align: center;
 }
 #infors .card-footer .card-text {
-    font-size: 1.2rem;
-    margin: 0
+    font-size: 1.1rem;
+    margin: 0;
+    cursor: pointer;
 }
 .change-color {
     background-color: rgba(8, 8, 8, 0.2);
@@ -147,8 +215,9 @@ div#preloader {
 footer {
     position: fixed;
     bottom: 2vh;
-    left: 62%;
+    left: 60%;
 }
 footer p {
     margin: 0;
+    font-size: 0.7rem;
 }
