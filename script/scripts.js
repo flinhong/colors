@@ -158,7 +158,8 @@ $( document ).ready(function() {
   function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
-  var rad = getRandomInt(0, 250);
+  var max = $('#colors .col-2').length;
+  var rad = getRandomInt(0, max);
   var radE = $('#colors .col-2')[rad];
   changeColor(radE,0);
   $('#colors').animate({

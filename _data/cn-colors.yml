@@ -1,0 +1,732 @@
+- name: "艳红"
+  pinyin: "YANHONG"
+  hex: "#cc3536"
+  rgb: [204, 53, 54]
+  cmyk: [0, 74, 74, 20]
+
+- name: "猩红"
+  pinyin: "XINGHONG"
+  hex: "#c43739"
+  rgb: [196, 55, 57]
+  cmyk: [0, 72, 71, 23]
+
+- name: "绛紫"
+  pinyin: "JIANGZI"
+  hex: "#704d4e"
+  rgb: [112, 77, 78]
+  cmyk: [0, 31, 30, 56]
+
+- name: "银朱"
+  pinyin: "YINZHU"
+  hex: "#dd3b44"
+  rgb: [221, 59, 68]
+  cmyk: [0, 73, 69, 13]
+
+- name: "浅血牙"
+  pinyin: "QIANXIEYA"
+  hex: "#eacdd1"
+  rgb: [234, 205, 209]
+  cmyk: [0, 12, 11, 8]
+
+- name: "月季红"
+  pinyin: "YUEJIHONG"
+  hex: "#bb1c33"
+  rgb: [187, 28, 51]
+  cmyk: [0, 85, 73, 27]
+
+- name: "玫瑰红"
+  pinyin: "MEIGUIHONG"
+  hex: "#973444"
+  rgb: [151, 52, 68]
+  cmyk: [0, 66, 55, 41]
+
+- name: "枣红"
+  pinyin: "ZAOHONG"
+  hex: "#89303f"
+  rgb: [137, 48, 63]
+  cmyk: [0, 65, 54, 46]
+
+- name: "洋红"
+  pinyin: "YANGHONG"
+  hex: "#dc143c"
+  rgb: [220, 20, 60]
+  cmyk: [0, 91, 73, 14]
+
+- name: "紫粉"
+  pinyin: "ZIFEN"
+  hex: "#a54358"
+  rgb: [165, 67, 88]
+  cmyk: [0, 59, 47, 35]
+
+- name: "茄皮紫"
+  pinyin: "QIEPIZI"
+  hex: "#674950"
+  rgb: [103, 73, 80]
+  cmyk: [0, 29, 22, 60]
+
+- name: "深烟红"
+  pinyin: "SHENYANHONG"
+  hex: "#643441"
+  rgb: [100, 52, 65]
+  cmyk: [0, 48, 35, 61]
+
+- name: "雪紫"
+  pinyin: "XUEZI"
+  hex: "#79485a"
+  rgb: [121, 72, 90]
+  cmyk: [0, 40, 26, 53]
+
+- name: "玫瑰灰"
+  pinyin: "MEIGUIHUI"
+  hex: "#793d56"
+  rgb: [121, 61, 86]
+  cmyk: [0, 50, 29, 53]
+
+- name: "洋葱紫"
+  pinyin: "YANGCONGZI"
+  hex: "#9c6680"
+  rgb: [156, 102, 128]
+  cmyk: [0, 35, 18, 39]
+
+- name: "元青"
+  pinyin: "YUANQING"
+  hex: "#3e3c3d"
+  rgb: [62, 60, 61]
+  cmyk: [0, 3, 2, 76]
+
+- name: "品红"
+  pinyin: "PINHONG"
+  hex: "#a71368"
+  rgb: [167, 19, 104]
+  cmyk: [0, 89, 38, 35]
+
+- name: "紫薇花"
+  pinyin: "ZIWEIHUA"
+  hex: "#eea5d1"
+  rgb: [238, 165, 209]
+  cmyk: [0, 31, 12, 7]
+
+- name: "牵牛紫"
+  pinyin: "QIANNIUZI"
+  hex: "#a22076"
+  rgb: [162, 32, 118]
+  cmyk: [0, 80, 27, 36]
+
+- name: "紫水晶"
+  pinyin: "ZISHUIJING"
+  hex: "#c3a6cb"
+  rgb: [195, 166, 203]
+  cmyk: [4, 18, 0, 20]
+
+- name: "浅石英紫"
+  pinyin: "QIANSHIYINGZI"
+  hex: "#ab96c5"
+  rgb: [171, 150, 197]
+  cmyk: [13, 24, 0, 23]
+
+- name: "柏坊灰蓝"
+  pinyin: "BAIFANGHUILAN"
+  hex: "#4e1892"
+  rgb: [78, 24, 146]
+  cmyk: [47, 84, 0, 43]
+
+- name: "紫藤灰"
+  pinyin: "ZITENGHUI"
+  hex: "#857e95"
+  rgb: [133, 126, 149]
+  cmyk: [11, 15, 0, 42]
+
+- name: "浅藤紫"
+  pinyin: "QIANTENGZI"
+  hex: "#c4c3cb"
+  rgb: [196, 195, 203]
+  cmyk: [3, 4, 0, 20]
+
+- name: "宝蓝"
+  pinyin: "BAOLAN"
+  hex: "#1f3696"
+  rgb: [31, 54, 150]
+  cmyk: [79, 64, 0, 41]
+
+- name: "靛蓝"
+  pinyin: "DIANLAN"
+  hex: "#1b54f2"
+  rgb: [27, 84, 242]
+  cmyk: [89, 65, 0, 5]
+
+- name: "藏蓝"
+  pinyin: "ZANGLAN"
+  hex: "#25386b"
+  rgb: [37, 56, 107]
+  cmyk: [65, 48, 0, 58]
+
+- name: "粗晶皂"
+  pinyin: "CUJINGZAO"
+  hex: "#43454a"
+  rgb: [67, 69, 74]
+  cmyk: [9, 7, 0, 71]
+
+- name: "孔雀蓝"
+  pinyin: "KONGQUELAN"
+  hex: "#0041a5"
+  rgb: [0, 65, 165]
+  cmyk: [100, 61, 0, 35]
+
+- name: "浅海昌蓝"
+  pinyin: "QIANHAICHANGLAN"
+  hex: "#3c5e91"
+  rgb: [60, 94, 145]
+  cmyk: [59, 35, 0, 43]
+
+- name: "花青"
+  pinyin: "HUAQING"
+  hex: "#546b83"
+  rgb: [84, 107, 131]
+  cmyk: [36, 18, 0, 49]
+
+- name: "鹊灰"
+  pinyin: "QUEHUI"
+  hex: "#455667"
+  rgb: [69, 86, 103]
+  cmyk: [33, 17, 0, 60]
+
+- name: "海蓝"
+  pinyin: "HAILAN"
+  hex: "#17507d"
+  rgb: [23, 80, 125]
+  cmyk: [82, 36, 0, 51]
+
+- name: "黛蓝"
+  pinyin: "DAILAN"
+  hex: "#304758"
+  rgb: [48, 71, 88]
+  cmyk: [45, 19, 0, 65]
+
+- name: "深竹月"
+  pinyin: "SHENZHUYUE"
+  hex: "#2578b5"
+  rgb: [37, 120, 181]
+  cmyk: [80, 34, 0, 29]
+
+- name: "绒蓝"
+  pinyin: "RONGLAN"
+  hex: "#31678d"
+  rgb: [49, 103, 141]
+  cmyk: [65, 27, 0, 45]
+
+- name: "北京毛蓝"
+  pinyin: "BEIJINGMAOLAN"
+  hex: "#276893"
+  rgb: [39, 104, 147]
+  cmyk: [73, 29, 0, 42]
+
+- name: "沙青"
+  pinyin: "SHAQING"
+  hex: "#2b5e7d"
+  rgb: [43, 94, 125]
+  cmyk: [66, 25, 0, 51]
+
+- name: "钴蓝"
+  pinyin: "GULAN"
+  hex: "#6493af"
+  rgb: [100, 147, 175]
+  cmyk: [43, 16, 0, 31]
+
+- name: "铁灰"
+  pinyin: "TIEHUI"
+  hex: "#37444b"
+  rgb: [55, 68, 75]
+  cmyk: [27, 9, 0, 71]
+
+- name: "红皂"
+  pinyin: "HONGZAO"
+  hex: "#4f5355"
+  rgb: [79, 83, 85]
+  cmyk: [7, 2, 0, 67]
+
+- name: "正灰"
+  pinyin: "ZHENGHUI"
+  hex: "#93a2a9"
+  rgb: [147, 162, 169]
+  cmyk: [13, 4, 0, 34]
+
+- name: "玉石蓝"
+  pinyin: "YUSHILAN"
+  hex: "#507883"
+  rgb: [80, 120, 131]
+  cmyk: [39, 8, 0, 49]
+
+- name: "天青*"
+  pinyin: "TIANQING"
+  hex: "#2ec3e7"
+  rgb: [46, 195, 231]
+  cmyk: [80, 16, 0, 9]
+
+- name: "灰蓝"
+  pinyin: "HUILAN"
+  hex: "#5d828a"
+  rgb: [93, 130, 138]
+  cmyk: [33, 6, 0, 46]
+
+- name: "春蓝"
+  pinyin: "CHUNLAN"
+  hex: "#7ba1a8"
+  rgb: [123, 161, 168]
+  cmyk: [27, 4, 0, 34]
+
+- name: "织锦灰"
+  pinyin: "ZHIJINHUI"
+  hex: "#748a8d"
+  rgb: [116, 138, 141]
+  cmyk: [18, 2, 0, 45]
+
+- name: "碧玉石"
+  pinyin: "BIYUSHI"
+  hex: "#569597"
+  rgb: [86, 149, 151]
+  cmyk: [43, 1, 0, 41]
+
+- name: "沙绿"
+  pinyin: "SHALYU"
+  hex: "#005b5a"
+  rgb: [0, 91, 90]
+  cmyk: [100, 0, 1, 64]
+
+- name: "灰绿"
+  pinyin: "HUILYU"
+  hex: "#5c8987"
+  rgb: [92, 137, 135]
+  cmyk: [33, 0, 1, 46]
+
+- name: "翠绿"
+  pinyin: "CUILYU"
+  hex: "#006e5f"
+  rgb: [0, 110, 95]
+  cmyk: [100, 0, 14, 57]
+
+- name: "卡其绿"
+  pinyin: "KAQILYU"
+  hex: "#647370"
+  rgb: [100, 115, 112]
+  cmyk: [13, 0, 3, 55]
+
+- name: "果灰"
+  pinyin: "GUOHUI"
+  hex: "#88aea3"
+  rgb: [136, 174, 163]
+  cmyk: [22, 0, 6, 32]
+
+- name: "鹦鹉绿"
+  pinyin: "YINGWULYU"
+  hex: "#008e59"
+  rgb: [0, 142, 89]
+  cmyk: [100, 0, 37, 44]
+
+- name: "鸭蛋青"
+  pinyin: "YADANQING"
+  hex: "#d1e3db"
+  rgb: [209, 227, 219]
+  cmyk: [8, 0, 4, 11]
+
+- name: "三绿"
+  pinyin: "SANLYU"
+  hex: "#90caaf"
+  rgb: [144, 202, 175]
+  cmyk: [29, 0, 13, 21]
+
+- name: "承德皂"
+  pinyin: "CHENGDEZAO"
+  hex: "#5a5c5b"
+  rgb: [90, 92, 91]
+  cmyk: [2, 0, 1, 64]
+
+- name: "老绿"
+  pinyin: "LAOLYU"
+  hex: "#3d6e53"
+  rgb: [61, 110, 83]
+  cmyk: [45, 0, 25, 57]
+
+- name: "奶绿"
+  pinyin: "NAILYU"
+  hex: "#afc8ba"
+  rgb: [175, 200, 186]
+  cmyk: [12, 0, 7, 22]
+
+- name: "淡灰绿"
+  pinyin: "DANHUILYU"
+  hex: "#aec4b7"
+  rgb: [174, 196, 183]
+  cmyk: [11, 0, 7, 23]
+
+- name: "水貂灰"
+  pinyin: "SHUIDIAOHUI"
+  hex: "#949c97"
+  rgb: [148, 156, 151]
+  cmyk: [5, 0, 3, 39]
+
+- name: "油绿"
+  pinyin: "YOULYU"
+  hex: "#45554a"
+  rgb: [69, 85, 74]
+  cmyk: [19, 0, 13, 67]
+
+- name: "锈绿"
+  pinyin: "XIULYU"
+  hex: "#b8c8b7"
+  rgb: [184, 200, 183]
+  cmyk: [8, 0, 8, 22]
+
+- name: "水黄"
+  pinyin: "SHUIHUANG"
+  hex: "#bed2b6"
+  rgb: [190, 210, 182]
+  cmyk: [10, 0, 13, 18]
+
+- name: "银箔"
+  pinyin: "YINBO"
+  hex: "#585a57"
+  rgb: [88, 90, 87]
+  cmyk: [2, 0, 3, 65]
+
+- name: "苍绿"
+  pinyin: "CANGLYU"
+  hex: "#4e5f45"
+  rgb: [78, 95, 69]
+  cmyk: [18, 0, 27, 63]
+
+- name: "黄灰"
+  pinyin: "HUANGHUI"
+  hex: "#b0b7ac"
+  rgb: [176, 183, 172]
+  cmyk: [4, 0, 6, 28]
+
+- name: "春绿"
+  pinyin: "CHUNLYU"
+  hex: "#e3efd1"
+  rgb: [227, 239, 209]
+  cmyk: [5, 0, 13, 6]
+
+- name: "军绿"
+  pinyin: "JUNLYU"
+  hex: "#cad4ba"
+  rgb: [202, 212, 186]
+  cmyk: [5, 0, 12, 17]
+
+- name: "大赤金"
+  pinyin: "DACHIJIN"
+  hex: "#6d7358"
+  rgb: [109, 115, 88]
+  cmyk: [5, 0, 23, 55]
+
+- name: "芦灰"
+  pinyin: "LUHUI"
+  hex: "#a9b08f"
+  rgb: [169, 176, 143]
+  cmyk: [4, 0, 19, 31]
+
+- name: "米色"
+  pinyin: "MISE"
+  hex: "#f5f5dc"
+  rgb: [245, 245, 220]
+  cmyk: [0, 0, 10, 4]
+
+- name: "油烟墨"
+  pinyin: "YOUYANMO"
+  hex: "#3f3f3c"
+  rgb: [63, 63, 60]
+  cmyk: [0, 0, 5, 75]
+
+- name: "承德灰"
+  pinyin: "CHENGDEHUI"
+  hex: "#757570"
+  rgb: [117, 117, 112]
+  cmyk: [0, 0, 4, 54]
+
+- name: "橄榄绿"
+  pinyin: "GANLANLYU"
+  hex: "#6a6834"
+  rgb: [106, 104, 52]
+  cmyk: [0, 2, 51, 58]
+
+- name: "枯绿"
+  pinyin: "KULYU"
+  hex: "#b7b278"
+  rgb: [183, 178, 120]
+  cmyk: [0, 3, 34, 28]
+
+- name: "柠檬黄"
+  pinyin: "NINGMENGHUANG"
+  hex: "#e9db39"
+  rgb: [233, 219, 57]
+  cmyk: [0, 6, 76, 9]
+
+- name: "蜡白"
+  pinyin: "LABAI"
+  hex: "#e7e5d0"
+  rgb: [231, 229, 208]
+  cmyk: [0, 1, 10, 9]
+
+- name: "草黄"
+  pinyin: "CAOHUANG"
+  hex: "#dbce54"
+  rgb: [219, 206, 84]
+  cmyk: [0, 6, 62, 14]
+
+- name: "灰米"
+  pinyin: "HUIMI"
+  hex: "#b6b196"
+  rgb: [182, 177, 150]
+  cmyk: [0, 3, 18, 29]
+
+- name: "藤黄"
+  pinyin: "TENGHUANG"
+  hex: "#f2de76"
+  rgb: [242, 222, 118]
+  cmyk: [0, 8, 51, 5]
+
+- name: "胡粉"
+  pinyin: "HUFEN"
+  hex: "#ebe8db"
+  rgb: [235, 232, 219]
+  cmyk: [0, 1, 7, 8]
+
+- name: "丹东石"
+  pinyin: "DANDONGSHI"
+  hex: "#d7c16b"
+  rgb: [215, 193, 107]
+  cmyk: [0, 10, 50, 16]
+
+- name: "库金"
+  pinyin: "KUJIN"
+  hex: "#85794f"
+  rgb: [133, 121, 79]
+  cmyk: [0, 9, 41, 48]
+
+- name: "甘草黄"
+  pinyin: "GANCAOHUANG"
+  hex: "#e4cf8e"
+  rgb: [228, 207, 142]
+  cmyk: [0, 9, 38, 11]
+
+- name: "灯草灰"
+  pinyin: "DENGCAOHUI"
+  hex: "#363532"
+  rgb: [54, 53, 50]
+  cmyk: [0, 2, 7, 79]
+
+- name: "米灰"
+  pinyin: "MIHUI"
+  hex: "#c5bfad"
+  rgb: [197, 191, 173]
+  cmyk: [0, 3, 12, 23]
+
+- name: "姜黄"
+  pinyin: "JIANGHUANG"
+  hex: "#b49436"
+  rgb: [180, 148, 54]
+  cmyk: [0, 18, 70, 29]
+
+- name: "选金"
+  pinyin: "XUANJIN"
+  hex: "#796f54"
+  rgb: [121, 111, 84]
+  cmyk: [0, 8, 31, 53]
+
+- name: "浅棕灰"
+  pinyin: "QIANZONGHUI"
+  hex: "#e1dbcd"
+  rgb: [225, 219, 205]
+  cmyk: [0, 3, 9, 12]
+
+- name: "将校呢"
+  pinyin: "JIANGXIAONI"
+  hex: "#6d614a"
+  rgb: [109, 97, 74]
+  cmyk: [0, 11, 32, 57]
+
+- name: "卡其黄"
+  pinyin: "KAQIHUANG"
+  hex: "#d5b884"
+  rgb: [213, 184, 132]
+  cmyk: [0, 14, 38, 16]
+
+- name: "相思灰"
+  pinyin: "XIANGSIHUI"
+  hex: "#625c52"
+  rgb: [98, 92, 82]
+  cmyk: [0, 6, 16, 62]
+
+- name: "枝黄"
+  pinyin: "ZHIHUANG"
+  hex: "#dbc7a6"
+  rgb: [219, 199, 166]
+  cmyk: [0, 9, 24, 14]
+
+- name: "中棕灰"
+  pinyin: "ZHONGZONGHUI"
+  hex: "#a9987c"
+  rgb: [169, 152, 124]
+  cmyk: [0, 10, 27, 34]
+
+- name: "土黄"
+  pinyin: "TUHUANG"
+  hex: "#ce9335"
+  rgb: [206, 147, 53]
+  cmyk: [0, 29, 74, 19]
+
+- name: "浅驼色"
+  pinyin: "QIANTUOSE"
+  hex: "#c9ae8c"
+  rgb: [201, 174, 140]
+  cmyk: [0, 13, 30, 21]
+
+- name: "棕茶"
+  pinyin: "ZONGCHA"
+  hex: "#b8844f"
+  rgb: [184, 132, 79]
+  cmyk: [0, 28, 57, 28]
+
+- name: "雄黄"
+  pinyin: "XIONGHUANG"
+  hex: "#d0853d"
+  rgb: [208, 133, 61]
+  cmyk: [0, 36, 71, 18]
+
+- name: "纸棕"
+  pinyin: "ZHIZONG"
+  hex: "#bca590"
+  rgb: [188, 165, 144]
+  cmyk: [0, 12, 23, 26]
+
+- name: "浅桔黄"
+  pinyin: "QIANJIEHUANG"
+  hex: "#da9558"
+  rgb: [218, 149, 88]
+  cmyk: [0, 32, 60, 15]
+
+- name: "浅黄棕"
+  pinyin: "QIANHUANGZONG"
+  hex: "#dea87a"
+  rgb: [222, 168, 122]
+  cmyk: [0, 24, 45, 13]
+
+- name: "金黄"
+  pinyin: "JINHUANG"
+  hex: "#c77a3a"
+  rgb: [199, 122, 58]
+  cmyk: [0, 39, 71, 22]
+
+- name: "米红"
+  pinyin: "MIHONG"
+  hex: "#e1bda2"
+  rgb: [225, 189, 162]
+  cmyk: [0, 16, 28, 12]
+
+- name: "桔黄"
+  pinyin: "JIEHUANG"
+  hex: "#e8853b"
+  rgb: [232, 133, 59]
+  cmyk: [0, 43, 75, 9]
+
+- name: "苍黄"
+  pinyin: "CANGHUANG"
+  hex: "#c65306"
+  rgb: [198, 83, 6]
+  cmyk: [0, 58, 97, 22]
+
+- name: "雄精"
+  pinyin: "XIONGJING"
+  hex: "#e47542"
+  rgb: [228, 117, 66]
+  cmyk: [0, 49, 71, 11]
+
+- name: "甘石粉"
+  pinyin: "GANSHIFEN"
+  hex: "#eadcd6"
+  rgb: [234, 220, 214]
+  cmyk: [0, 6, 9, 8]
+
+- name: "章丹"
+  pinyin: "ZHANGDAN"
+  hex: "#eb652d"
+  rgb: [235, 101, 45]
+  cmyk: [0, 57, 81, 8]
+
+- name: "桔红"
+  pinyin: "JIEHONG"
+  hex: "#e7693f"
+  rgb: [231, 105, 63]
+  cmyk: [0, 55, 73, 9]
+
+- name: "奶棕"
+  pinyin: "NAIZONG"
+  hex: "#c1a299"
+  rgb: [193, 162, 153]
+  cmyk: [0, 16, 21, 24]
+
+- name: "血红"
+  pinyin: "XIEHONG"
+  hex: "#a03e28"
+  rgb: [160, 62, 40]
+  cmyk: [0, 61, 75, 37]
+
+- name: "辰砂"
+  pinyin: "CHENSHA"
+  hex: "#af5e53"
+  rgb: [175, 94, 83]
+  cmyk: [0, 46, 53, 31]
+
+- name: "十样锦"
+  pinyin: "SHIYANGJIN"
+  hex: "#fcb1aa"
+  rgb: [252, 177, 170]
+  cmyk: [0, 30, 33, 1]
+
+- name: "蕃茄红"
+  pinyin: "FANQIEHONG"
+  hex: "#c4473d"
+  rgb: [196, 71, 61]
+  cmyk: [0, 64, 69, 23]
+
+- name: "榴花红"
+  pinyin: "LIUHUAHONG"
+  hex: "#d54b44"
+  rgb: [213, 75, 68]
+  cmyk: [0, 65, 68, 16]
+
+- name: "胭脂"
+  pinyin: "YANZHI"
+  hex: "#c03f3c"
+  rgb: [192, 63, 60]
+  cmyk: [0, 67, 69, 25]
+
+- name: "妃红"
+  pinyin: "FEIHONG"
+  hex: "#c35655"
+  rgb: [195, 86, 85]
+  cmyk: [0, 56, 56, 24]
+
+- name: "锈红"
+  pinyin: "XIUHONG"
+  hex: "#4d1919"
+  rgb: [77, 25, 25]
+  cmyk: [0, 68, 68, 70]
+
+- name: "深烟"
+  pinyin: "SHENYAN"
+  hex: "#5a4c4c"
+  rgb: [90, 76, 76]
+  cmyk: [0, 16, 16, 65]
+
+- name: "雪色"
+  pinyin: "XUESE"
+  hex: "#fffafa"
+  rgb: [255, 250, 250]
+  cmyk: [0, 2, 2, 0]
+
+- name: "百草霜"
+  pinyin: "BAICAOSHUANG"
+  hex: "#303030"
+  rgb: [48, 48, 48]
+  cmyk: [0, 0, 0, 81]
+

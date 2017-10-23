@@ -22,29 +22,31 @@ def rgb_to_cmyk(r,g,b):
     # rescale to the range [0,cmyk_scale]
     return round(c*cmyk_scale), round(m*cmyk_scale), round(y*cmyk_scale), round(k*cmyk_scale)
 
-with open('colors.txt') as fo:
+with open('cn-colors.txt') as fo:
     for line in fo:
         line = line.replace('\n', '')
         line = line.split(', ')
 
         name = line[0]
         print(name)
-        enname = line[1]
-        print(enname)
+        pinyin = line[1]
+        print(pinyin)
 
-        h = input('Enter hex: ').lstrip('#')
+        hex = line[2].lstrip('#')
 
-        rgb = hex_to_rgb(h)
+        rgb = hex_to_rgb(hex)
+        print(rgb)
         cmyk = rgb_to_cmyk(rgb[0],rgb[1],rgb[2])
+        print(cmyk)
         rgb = json.dumps(rgb)
         cmyk = json.dumps(cmyk)
 
         text = '- name: "' + name + '"\n'
-        text += '  en-name: "' + enname + '"\n'
-        text += '  hex: "#' + h + '"\n'
+        text += '  pinyin: "' + pinyin + '"\n'
+        text += '  hex: "#' + hex + '"\n'
         text += '  rgb: ' + rgb + '\n'
         text += '  cmyk: ' + cmyk + '\n'
 
-        f = open("colors.yml","a+")
+        f = open("cn-colors.yml","a+")
         f.write(text+'\n')
         f.close()
