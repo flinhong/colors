@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Caudex');
 body {
-    font-family: 'Caudex', 'Source Han Serif CN', serif;
+    font-family: 'Caudex', 'Source Han Serif CN', 'source-han-serif-sc', serif;
 }
 div#preloader {
   position: fixed;
