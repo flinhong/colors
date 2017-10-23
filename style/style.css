@@ -94,6 +94,14 @@ body {
 ::-webkit-scrollbar-thumb {
     background-color: #1c1c1c;
 }
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+    #colors .row {
+        margin-left: 2rem;
+    }
+}
 #colors .col-2 {
     padding: 0 1rem 1rem 1rem;
     cursor: pointer;
