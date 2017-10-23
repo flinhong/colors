@@ -25,7 +25,7 @@ $( document ).ready(function() {
 
   setTimeout(cmykCircles, 500);
   $.when( cmykCircles() ).done(function() {
-    $("#preloader").toggle( "clip" );
+    $("#preloader").toggle("clip");
     $("#preloader").remove();
   }, 500);
 
@@ -106,8 +106,11 @@ $( document ).ready(function() {
       } else {
         $('.main').css('background-color', 'transparent')
       }
-      
-      $('#infors').find('.card-title').text(name).effect( "bounce", "slow" );
+      if (animate == 0) {
+        $('#infors').find('.card-title').text(name)
+      } else {
+        $('#infors').find('.card-title').text(name).effect( "bounce", "slow" );
+      }
       $('#infors').find('.en-name').text(enname);
       $('#infors').find('.card-footer p:first').text(hex);
       $('#infors').find('.card-footer p:last').text(rgb_text);

@@ -96,6 +96,7 @@ body {
 #colors .col-2 {
     padding: 0 1rem 1rem 1rem;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 #colors .col-2 .col-12 {
     padding: 0;
