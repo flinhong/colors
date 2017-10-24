@@ -1,35 +1,39 @@
 var gulp = require('gulp'),
     runSequence = require('run-sequence'),
-    ghPages = require('gulp-gh-pages'),
     cssmin = require('gulp-clean-css'),
     jsmin = require('gulp-uglify'),
+    htmlmin = require('gulp-cleanhtml'),
     prettify = require('gulp-html-prettify');
 
 gulp.task('min-css', function(){
-return gulp.src('public/**/*.css')
+return gulp.src('docs/**/*.css')
         .pipe(cssmin({
         level: 2
         }))
-        .pipe(gulp.dest('public/'))
+        .pipe(gulp.dest('docs/'))
 });
 
 gulp.task('min-js', function(){
-return gulp.src('public/**/*.js')
+return gulp.src('docs/**/*.js')
         .pipe(jsmin())
-        .pipe(gulp.dest('public/'))
+        .pipe(gulp.dest('docs/'))
+});
+
+gulp.task('min-html', function(){
+return gulp.src('docs/**/*.html')
+     .pipe(htmlmin({
+       collapseWhitespace: true,
+       removeComments: true
+     }))
+     .pipe(gulp.dest('docs/'))
 });
 
 gulp.task('html-pretty', function() {
-return gulp.src('public/**/*.html')
+return gulp.src('docs/**/*.html')
         .pipe(prettify({indent_char: ' ', indent_size: 2}))
-        .pipe(gulp.dest('public/'))
+        .pipe(gulp.dest('docs/'))
 });
 
-gulp.task('gh-pages', function() {
-  return gulp.src('./public/**/*')
-    .pipe(ghPages());
-});
-
-gulp.task('deploy', function( callback ){
-    runSequence('min-css', 'min-js', 'html-pretty', 'gh-pages', callback);
+gulp.task('min-all', function( callback ){
+    runSequence('min-css', 'min-js', 'min-html', 'html-pretty', callback);
 });

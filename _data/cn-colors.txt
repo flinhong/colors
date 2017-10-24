@@ -41,7 +41,7 @@
 红皂, HONGZAO, #4f5355
 正灰, ZHENGHUI, #93a2a9
 玉石蓝, YUSHILAN, #507883
-天青*, TIANQING, #2ec3e7
+天青, TIANQING, #2ec3e7
 灰蓝, HUILAN, #5d828a
 春蓝, CHUNLAN, #7ba1a8
 织锦灰, ZHIJINHUI, #748a8d

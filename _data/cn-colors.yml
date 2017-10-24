@@ -256,7 +256,7 @@
   rgb: [80, 120, 131]
   cmyk: [39, 8, 0, 49]
 
-- name: "天青*"
+- name: "天青"
   pinyin: "TIANQING"
   hex: "#2ec3e7"
   rgb: [46, 195, 231]
