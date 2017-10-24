@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     runSequence = require('run-sequence'),
+    ghPages = require('gulp-gh-pages'),
     cssmin = require('gulp-clean-css'),
     jsmin = require('gulp-uglify'),
     htmlmin = require('gulp-cleanhtml'),
@@ -34,6 +35,11 @@ return gulp.src('public/**/*.html')
         .pipe(gulp.dest('public/'))
 });
 
-gulp.task('min-all', function( callback ){
-    runSequence('min-css', 'min-js', 'min-html', 'html-pretty', callback);
+gulp.task('gh-pages', function() {
+  return gulp.src('./public/**/*')
+    .pipe(ghPages());
+});
+
+gulp.task('deploy', function( callback ){
+    runSequence('min-css', 'min-js', 'min-html', 'html-pretty', 'gh-pages', callback);
 });
