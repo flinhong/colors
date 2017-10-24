@@ -53,3 +53,4 @@ exclude:
   - README.md
   - screenshot.png
   - package-lock.json
+  - gulpfile.js
