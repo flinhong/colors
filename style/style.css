@@ -195,6 +195,13 @@ and (orientation : portrait) {
     #details .vertical {
         height: 15rem;
     }
+}@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+    #details {
+        margin-left: -2rem;
+    }
 }
 #details .vertical .progress-bar {
     width: 100%;
@@ -207,6 +214,7 @@ and (orientation : portrait) {
     border: 0;
     margin-top: 3rem;
     display: none;
+    text-align: center;
 }
 #infors h4.card-title {
     margin: 0;
@@ -219,6 +227,18 @@ and (orientation : portrait) {
 #infors .card-text {
     font-size: 1.25rem;
     text-align: center;
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    #infors {
+        margin-left: 1.2rem;
+    }
+    #infors h4.card-title {
+        font-size: 3rem;
+        padding: 1rem 1rem;
+    }
 }
 #infors .card-footer .card-text {
     font-size: 1.1rem;

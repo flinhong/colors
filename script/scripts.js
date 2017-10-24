@@ -32,8 +32,11 @@ $( document ).ready(function() {
   $('#colors .card, #details .card, #infors .card').fadeIn('slow');
 
   var screenHeight = window.innerHeight;
-  console.log(screenHeight);
-  if (screenHeight<=800) {
+  var portrait = false;
+  if(window.innerHeight > window.innerWidth){
+      portrait = true;
+  }
+  if (screenHeight<=800 || portrait) {
     $('#details .dd-c').peity('donut', {
       fill: ["#0d5661", "#eee"],
       innerRadius: 26,

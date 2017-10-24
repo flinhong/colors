@@ -1,0 +1,42 @@
+<div class="col-7" id="colors">
+        
+    <div class="card-columns d-flex">
+        <div class="row">
+
+        {% for color in site.data.cn-colors %}
+        <div class="col-2">
+            <div class="card">
+            <div class="card-body">
+                <div class="col-12">
+                <h4 class="card-title">{{ color.name }}</h4>
+                <p class="card-text cmyk-donut">
+                    <span class="donut dd-c init">{{ color.cmyk[0] }}/100</span>
+                    <span class="donut dd-m init">{{ color.cmyk[1] }}/100</span>
+                    <span class="donut dd-y init">{{ color.cmyk[2] }}/100</span>
+                    <span class="donut dd-k init">{{ color.cmyk[3] }}/100</span>
+                </p>
+                </div>
+                <div class="col-12">
+                <p class="card-text hex-value">{{ color.hex }}</p>
+                <div class="card-text rgb-line">
+                    <div class="progress vertical">
+                    <div class="progress-bar bg-r" style="height: {{ color.rgb[0] | times:100 | divided_by: 255 }}%"></div>
+                    </div>
+                    <div class="progress vertical">
+                    <div class="progress-bar bg-g" style="height: {{ color.rgb[1] | times:100 | divided_by: 255 }}%"></div>
+                    </div>
+                    <div class="progress vertical">
+                    <div class="progress-bar bg-b" style="height: {{ color.rgb[2] | times:100 | divided_by: 255 }}%"></div>
+                    </div>
+                </div>
+                <p class="card-text en-name">{{ color.pinyin }}</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        {% endfor %}
+
+        </div>
+    </div>
+
+</div>
