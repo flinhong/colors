@@ -1,122 +1,319 @@
-艳红, YANHONG, #cc3536
-猩红, XINGHONG, #c43739
-绛紫, JIANGZI, #704d4e
-银朱, YINZHU, #dd3b44
-浅血牙, QIANXIEYA, #eacdd1
-月季红, YUEJIHONG, #bb1c33
-玫瑰红, MEIGUIHONG, #973444
-枣红, ZAOHONG, #89303f
-洋红, YANGHONG, #dc143c
-紫粉, ZIFEN, #a54358
-茄皮紫, QIEPIZI, #674950
-深烟红, SHENYANHONG, #643441
-雪紫, XUEZI, #79485a
-玫瑰灰, MEIGUIHUI, #793d56
-洋葱紫, YANGCONGZI, #9c6680
-元青, YUANQING, #3e3c3d
-品红, PINHONG, #a71368
-紫薇花, ZIWEIHUA, #eea5d1
-牵牛紫, QIANNIUZI, #a22076
-紫水晶, ZISHUIJING, #c3a6cb
-浅石英紫, QIANSHIYINGZI, #ab96c5
-柏坊灰蓝, BAIFANGHUILAN, #4e1892
-紫藤灰, ZITENGHUI, #857e95
-浅藤紫, QIANTENGZI, #c4c3cb
-宝蓝, BAOLAN, #1f3696
-靛蓝, DIANLAN, #1b54f2
-藏蓝, ZANGLAN, #25386b
-粗晶皂, CUJINGZAO, #43454a
-孔雀蓝, KONGQUELAN, #0041a5
-浅海昌蓝, QIANHAICHANGLAN, #3c5e91
-花青, HUAQING, #546b83
-鹊灰, QUEHUI, #455667
-海蓝, HAILAN, #17507d
-黛蓝, DAILAN, #304758
-深竹月, SHENZHUYUE, #2578b5
-绒蓝, RONGLAN, #31678d
-北京毛蓝, BEIJINGMAOLAN, #276893
-沙青, SHAQING, #2b5e7d
-钴蓝, GULAN, #6493af
-铁灰, TIEHUI, #37444b
-红皂, HONGZAO, #4f5355
-正灰, ZHENGHUI, #93a2a9
-玉石蓝, YUSHILAN, #507883
-天青, TIANQING, #2ec3e7
-灰蓝, HUILAN, #5d828a
-春蓝, CHUNLAN, #7ba1a8
-织锦灰, ZHIJINHUI, #748a8d
-碧玉石, BIYUSHI, #569597
-沙绿, SHALYU, #005b5a
-灰绿, HUILYU, #5c8987
-翠绿, CUILYU, #006e5f
-卡其绿, KAQILYU, #647370
-果灰, GUOHUI, #88aea3
-鹦鹉绿, YINGWULYU, #008e59
-鸭蛋青, YADANQING, #d1e3db
-三绿, SANLYU, #90caaf
-承德皂, CHENGDEZAO, #5a5c5b
-老绿, LAOLYU, #3d6e53
-奶绿, NAILYU, #afc8ba
-淡灰绿, DANHUILYU, #aec4b7
-水貂灰, SHUIDIAOHUI, #949c97
-油绿, YOULYU, #45554a
-锈绿, XIULYU, #b8c8b7
-水黄, SHUIHUANG, #bed2b6
-银箔, YINBO, #585a57
-苍绿, CANGLYU, #4e5f45
-黄灰, HUANGHUI, #b0b7ac
-春绿, CHUNLYU, #e3efd1
-军绿, JUNLYU, #cad4ba
-大赤金, DACHIJIN, #6d7358
-芦灰, LUHUI, #a9b08f
-米色, MISE, #f5f5dc
-油烟墨, YOUYANMO, #3f3f3c
-承德灰, CHENGDEHUI, #757570
-橄榄绿, GANLANLYU, #6a6834
-枯绿, KULYU, #b7b278
-柠檬黄, NINGMENGHUANG, #e9db39
-蜡白, LABAI, #e7e5d0
-草黄, CAOHUANG, #dbce54
-灰米, HUIMI, #b6b196
-藤黄, TENGHUANG, #f2de76
-胡粉, HUFEN, #ebe8db
-丹东石, DANDONGSHI, #d7c16b
-库金, KUJIN, #85794f
-甘草黄, GANCAOHUANG, #e4cf8e
-灯草灰, DENGCAOHUI, #363532
-米灰, MIHUI, #c5bfad
-姜黄, JIANGHUANG, #b49436
-选金, XUANJIN, #796f54
-浅棕灰, QIANZONGHUI, #e1dbcd
-将校呢, JIANGXIAONI, #6d614a
-卡其黄, KAQIHUANG, #d5b884
-相思灰, XIANGSIHUI, #625c52
-枝黄, ZHIHUANG, #dbc7a6
-中棕灰, ZHONGZONGHUI, #a9987c
-土黄, TUHUANG, #ce9335
-浅驼色, QIANTUOSE, #c9ae8c
-棕茶, ZONGCHA, #b8844f
-雄黄, XIONGHUANG, #d0853d
-纸棕, ZHIZONG, #bca590
-浅桔黄, QIANJIEHUANG, #da9558
-浅黄棕, QIANHUANGZONG, #dea87a
-金黄, JINHUANG, #c77a3a
-米红, MIHONG, #e1bda2
-桔黄, JIEHUANG, #e8853b
-苍黄, CANGHUANG, #c65306
-雄精, XIONGJING, #e47542
-甘石粉, GANSHIFEN, #eadcd6
-章丹, ZHANGDAN, #eb652d
-桔红, JIEHONG, #e7693f
-奶棕, NAIZONG, #c1a299
-血红, XIEHONG, #a03e28
-辰砂, CHENSHA, #af5e53
-十样锦, SHIYANGJIN, #fcb1aa
-蕃茄红, FANQIEHONG, #c4473d
-榴花红, LIUHUAHONG, #d54b44
-胭脂, YANZHI, #c03f3c
-妃红, FEIHONG, #c35655
-锈红, XIUHONG, #4d1919
-深烟, SHENYAN, #5a4c4c
-雪色, XUESE, #fffafa
-百草霜, BAICAOSHUANG, #303030
+银星海棠, yín xīng hǎi táng, #f52443
+桂皮色, guì pí sè, #c66f35
+甘草黄, gān cǎo huáng, #eddd9e
+墨绿, mò lǜ, #1e3124
+罗蓝灰, luó lán huī, #3c374a
+曙红, shǔ hóng, #e60039
+黄鸭色, huáng yā sè, #874521
+芽灰, yá huī, #e3dbbf
+织锦灰, zhī jǐn huī, #7b8c7c
+海蓝, hǎi lán, #0b2d64
+月季红, yuè jì hóng, #e10b2b
+土黄, tǔ huáng, #e88b00
+米灰, mǐ huī, #d3cbaf
+青虾色, qīng xiā sè, #6f847d
+雪蓝, xuě lán, #777bce
+蕉红色, jiāo hóng sè, #d70419
+琉璃色, liú lì sè, #c9780c
+乳灰, rǔ huī, #cfc592
+暗苔绿, àn tái lǜ, #405742
+绀青, gàn qīng, #3f4470
+桔红, jú hóng, #ff441a
+浅桔黄, qiǎn jú huáng, #ec9433
+灰米, huī mǐ, #c4be8c
+大理石色, dà lǐ shí sè, #c9d8cd
+浅海昌蓝, qiǎn hǎi chāng lán, #2f4988
+茉莉花红, mò lì huā hóng, #cc0033
+朱古力色, zhū gǔ lì sè, #381801
+新芽色, xīn yá sè, #7d7d00
+淡灰绿, dàn huī lǜ, #c0d6cb
+深竹月, shēn zhú yuè, #2e62cd
+猩红, xīng hóng, #cc0000
+红孤色, hóng gū sè, #c98150
+胡粉, hú fěn, #fffae8
+蟹青, xiè qīng, #6f9388
+深毛月色, shēn máo yuèsè, #284f95
+鸟罗松红, niǎo luó sōng hóng, #c80926
+罗汉果色, luó hàn guǒ sè, #502f16
+银白色, yín bái sè, #fffae6
+灰蓝, huī lán, #477066
+鹊灰, què huī, #283144
+蕃茄红, fān qié hóng, #c70024
+酱色, jiàng sè, #39200f
+蜡白, là bái, #fef8de
+老绿, lǎo lǜ, #2d5131
+浅土蓝, qiǎn tǔ lán, #122c4b
+艳红, yàn hóng, #bf0417
+蛤蜊粉, gé lí fěn, #ffb061
+乳白色, rǔ bái sè, #fef3c9
+枝绿, zhī lǜ, #dffff5
+青金色, qīng jīnsè, #9fa0d7
+牡丹红, mǔ dan hóng, #b80233
+棕茶, zōng chá, #c78738
+乳黄色, rǔ huáng sè, #feefb6
+龍泉青瓷釉色, lóng quán qīng cí yòu sè, #c8e6c6
+琉璃蓝, liú lì lán, #183a65
+象牙红, xiàng yá hóng, #b30000
+南瓜黄, nán guā huáng, #f4ad57
+丹东石, dān dōng shí, #f9e459
+双绿, shuāng lǜ, #043403
+绒蓝, róng lán, #1f4f89
+辰沙, chén shā, #ce3b3b
+浅黄, qiǎn huáng, #f3aa58
+虾灰, xiā huī, #dad6ab
+淡绿, dàn lǜ, #dbfbe3
+北京毛蓝, běi jīng máo lán, #1f4f89
+红扇贝色, hóng shàn bèi sè, #ce3b3b
+玛瑙粉, mǎ nǎo fěn, #ffbc9b
+淡黄, dàn huáng, #fef8c9
+夜绿色, yè lǜsè, #285b41
+花青, huā qīng, #576d93
+土红, tǔ hóng, #bc2e2e
+肉棕灰, ròu zōng huī, #cd9b69
+牙黄, yá huáng, #fef4b4
+浅水绿, qiǎn shuǐ lǜ, #ccfbea
+雪青灰, xuě qīng huī, #bfbed3
+榴花红, liú huā hóng, #b02502
+珈琲棕, jiā bèi zōng, #705438
+富春纺色, fù chūn fǎng sè, #fef4b4
+翡翠, fěi cuì, #015437
+银蓝, yín lán, #e1e3e6
+血红, xuè hóng, #990000
+深栗色, shēn lì sè, #402f20
+小鸠黄, xiǎo jiū huáng, #efe7ab
+绿琉璃色, lǜ liú lì sè, #296939
+竹月色, zhú yuè sè, #6b9ac9
+砖红, zhuān hóng, #ab2b2b
+深褐色, shēn hè sè, #251c12
+淡米色, dàn mǐ sè, #ffffd7
+浅鲜绿, qiǎn xiān lǜ, #b6fee9
+浅凤仙紫, qiǎn fèng xiān zǐ, #e666ff
+二硃, èr zhū, #c24545
+中驼, zhōng tuó, #ad876b
+藤黄, téng huáng, #faed4b
+果灰, guǒ huī, #7ecdb6
+青莲紫, qīng lián zǐ, #730099
+芯木色, xīn mù sè, #c14444
+草灰色, cǎo huī sè, #3d3123
+枯绿, kū lǜ, #d3d37c
+冬绿, dōng lǜ, #337d56
+紫薇花, zǐ wēi huā, #ff99ff
+深釉红, shēn yòu hóng, #971b00
+兽皮色, shòu pí sè, #c69c57
+嫩姜黄, nèn jiāng huáng, #fef263
+三绿, sān lǜ, #b3ffbc
+紫罗蓝, zǐ luó lán, #732e7e
+硃砂, zhū shā, #972626
+蝶粉, dié fěn, #ffd0a2
+草黄, cǎo huáng, #f4ea20
+深绿宝石, shēn lǜ bǎo shí, #02774f
+洋葱紫, yáng cōng zǐ, #8e488e
+银朱, yín zhū, #c85554
+骆驼色, luò tuó sè, #dcb183
+槐黄, huái huáng, #ffff4d
+鹦鹉绿, yīn gwǔ lǜ, #156a1e
+木槿紫, mù jǐn zǐ, #bf80ff
+釉红, yòu hóng, #7b1800
+浅驼色, qiǎn tuó sè, #d7af88
+柠檬黄, níng méng huáng, #ffff24
+粗孔雀绿, cū kǒng què lǜ, #028255
+凤仙紫, fèng xiān zǐ, #9565b1
+胭脂, yān zhī, #700000
+土布色, tǔ bù sè, #fdd599
+油烟墨, yóu yān mò, #272923
+冬瓜绿, dōng guā lǜ, #349e69
+浅石英紫, qiǎn shí yīng zǐ, #cc99ff
+玫瑰红, méi guī hóng, #973444
+肉棕, ròu zōng, #debf9a
+茶绿, chá lǜ, #343724
+玉绿, yù lǜ, #6ff9c1
+龙胆紫, lóng dǎn zǐ, #1a0033
+赦红, shè hóng, #d1634b
+纸棕, zhǐ zōng, #d2b38c
+红灰, hóng huī, #5f605b
+巴黎绿, bā lí lǜ, #02b340
+丁香紫, dīng xiāng zǐ, #503a65
+红莲灰, hóng lián huī, #c76079
+真丝绸色, zhēn sīc hóu sè, #ffe3c8
+貂水灰, diāo shuǐ huī, #8b8e86
+黛蓝, dài lán, #131e1e
+紫水晶, zǐ shuǐ jīng, #d9b3ff
+枣紫, zǎo zǐ, #540101
+果肉色, guǒ ròu sè, #fee3d1
+铁绿, tiě lǜ, #3f472c
+正灰, zhèng huī, #bcc7c7
+紫藤灰, zǐ téng huī, #b5a4c4
+凤仙粉, fèng xiān fěn, #ff9393
+肉黄, ròu huáng, #fce2c4
+卡其绿, kǎqí lǜ, #717234
+蓝灰色, lán huī sè, #8ba39e
+闪蝶紫, shǎn dié zǐ, #b4a4ca
+黑紫, hēi zǐ, #3e0014
+芦黄, lú huáng, #ebd2b8
+苔灰, tái huī, #425140
+沙绿, shā lǜ, #003129
+莲灰, lián huī, #d1bfdd
+锈红, xiù hóng, #4d1919
+浅肉粉, qiǎn ròu fěn, #f5eeeb
+法国梧桐皮色, fǎ guó wú tóng pí sè, #949773
+春蓝, chūn lán, #98b4b3
+淡藕合, dàn ǒu hé, #f0dfee
+紫铜色, zǐ tóng sè, #6b3636
+浅棕灰, qiǎn zōng huī, #eee7dd
+冬灰色, dōng huī sè, #63715b
+鸭蛋青, yā dàn qīng, #e6fffd
+浅藤紫, qiǎn téng zǐ, #ece4f3
+珈琲色, jiā bèi sè, #623131
+鹅黄, é huáng, #f8B500
+中条虾绿, zhōng tiáo xiā lǜ, #687452
+月白色, yuè bái sè, #daf3ef
+艳粉, yàn fěn, #e6005c
+烟色, yān sè, #2e0a01
+蛋黄, dàn huáng, #e6a202
+蛤粉, gé fěn, #fdfff4
+玉石蓝, yù shí lán, #427371
+长春花色, cháng chūn huā sè, #ff47d1
+绛紫, jiàng zǐ, #492525
+鹿皮棕, lù pí zōng, #a67902
+松绿色, sōng lǜ sè, #ced5bd
+碧玉石, bì yù shí, #66a8a8
+品红, pǐn hóng, #99004d
+浅粉, qiǎn fěn, #ffb3b3
+灯草灰, dēng cǎo huī, #131100
+黄灰, huáng huī, #b6bea9
+灰绿, huī lǜ, #5c968a
+暗粉, àn fěn, #ff77bb
+十样锦, shí yàng jǐn, #ffb3b3
+石黄, shí huáng, #f9bb00
+橄揽灰, gǎn lǎn huī, #75856d
+湖绿, hú lǜ, #015f5a
+毅红, yì hóng, #8a002e
+深烟, shēn yān, #311f1e
+姜黄, jiāng huáng, #806102
+春绿, chūn lǜ, #e3efd1
+浅松绿, qiǎn sōng lǜ, #79d2d2
+牵牛紫, qiān niú zǐ, #800040
+烟栗色, yān lìsè, #221311
+明黄, míng huáng, #ffc428
+芦灰, lú huī, #c1d0ae
+品绿, pǐn lǜ, #07817a
+紫粉, zǐ fěn, #80002b
+红灰莲, hóng huī lián, #ab8282
+向日黄, xiàng rì huáng, #ffc34d
+蜡黄, là huáng, #edf9df
+深松绿, shēn sōng lǜ, #42bfac
+肉红, ròu hóng, #d26091
+奶棕, nǎi zōng, #deb6b6
+元青, yuán qīng, #24231e
+锈绿, xiù lǜ, #d9e7ba
+石板色, shí bǎn sè, #4a595b
+银红, yín hóng, #c85b92
+肉粉, ròu fěn, #ffd7d7
+大赤金, dà chì jīn, #e6b422
+奶绿, nǎi lǜ, #cadcb6
+毛绿, máo lǜ, #28414a
+鸡冠花红, jī guān huā hóng, #660033
+米红, mǐ hóng, #fddfdf
+卡其黄, kǎqí huáng, #cda456
+水黄, shuǐ huáng, #ddeec4
+湖蓝灰, hú lán huī, #425c60
+枣红, zǎo hóng, #640021
+柿子色, shì zi sè, #ff531a
+黄棕色, huáng zōng sè, #b39255
+牙绿, yá lǜ, #f4fea3
+浅青色, qiǎn qīng sè, #e0f3f8
+紫扇贝色, zǐ shàn bèi sè, #923a60
+章丹, zhāng dān, #dd3700
+相思灰, xiāng sī huī, #4a4331
+嫩草绿, nèn cǎo lǜ, #a3b61f
+云灰, yún huī, #cbe2e4
+荷花, hé huā, #eb7faf
+妃红, fēi hóng, #b8542e
+黄琉璃, huáng liú lì, #e4b803
+杨桃色, yáng táo sè, #eefd6a
+蟹蓝, xiè lán, #597e82
+紫绛色, zǐ jiàng sè, #51001b
+粉棕, fěn zōng, #ebdad3
+承德皂, chéng dé zào, #474336
+嫩葱绿, nèn cōng lǜ, #93b469
+鸠灰, jiū huī, #9ec8da
+玫瑰灰, méi gui huī, #4d0026
+橙色, chéng sè, #fe621f
+燋茶色, jiāo chá sè, #3d3a27
+青豆色, qīng dòu sè, #98bc67
+铁青, tiě qīng, #292c2e
+雪紫, xuě zǐ, #33001a
+雄精, xióng jīng, #d94f04
+红皂, hóng zào, #3a3932
+军绿, jūn lǜ, #3d6402
+柏坊灰蓝, bǎi fāng huī lán, #41627c
+深红, shēn hóng, #33001a
+硃膘, zhū biāo, #eb6101
+将校呢, jiàng xiào ne, #363210
+苦瓜绿, kǔ guā lǜ, #e1ff86
+沙青, shā qīng, #205580
+淡粉, dàn fěn, #ffb3cc
+金红, jīn hóng, #e65C00
+库金, kù jīn, #e0b712
+铜绿色, tóng lǜ sè, #a6d279
+毛月色, máo yuè sè, #2c80c5
+豆棕, dòu zōng, #502e3e
+粉橙色, fěn chéng sè, #ff7B24
+庭院瓦灰色, tíng yuàn wǎ huī sè, #706750
+黄绿, huáng lǜ, #8cb33e
+钴蓝, gǔ lán, #6b9bb8
+蒲萄灰, pú táo huī, #4e2c3f
+苍黄, cāng huáng, #c65306
+中棕灰, zhōng zōng huī, #695f3d
+深芽绿, shēn yá lǜ, #739b06
+鲜蓝, xiān lán, #1515f9
+茄皮紫, qié pí zǐ, #3a212f
+玛瑙色, mǎ nǎo sè, #b1470e
+承德灰, chéng dé huī, #4f4f44
+浅草绿, qiǎn cǎo lǜ, #ccff99
+孔雀蓝, kǒng què lán, #0505d3
+粉凤仙, fěn fèng xiān, #fccce6
+虾黄, xiā huáng, #db6d00
+鹿皮色, lù pí sè, #fad156
+荷茎绿, hé jīng lǜ, #a0d878
+宝石蓝, bǎo shí lán, #1e25bb
+浅血牙, qiǎn xiě yá, #ffd7ea
+雄黄, xióng huáng, #c66231
+黄金色, huáng jīn sè, #dab710
+果绿, guǒ lǜ, #8ace57
+藏蓝, cáng lán, #111f6a
+甘石粉, gān shí fěn, #ffe8f3
+艳黄, yàn huáng, #fc8705
+淡棕茶, dàn zōng chá, #c0a86d
+葱绿, cōng lǜ, #99f158
+郡青, jùn qīng, #043ab9
+百草霜, bǎi cǎo shuāng, #1c1c1c
+金黄, jīn huáng, #b85c2e
+橄榄绿, gǎn lǎn lǜ, #49460c
+铁灰, tiě huī, #3e403f
+鈦铁, tài tiě, #1a152b
+青灰色, qīng huī sè, #484848
+桔黄, jú huáng, #f08300
+选金, xuǎn jīn, #e9c61f
+粗晶皂, cū jīng zào, #323836
+深蓝, shēn lán, #0e1a49
+银鼠灰, yín shǔ huī, #797979
+坛香色, tán xiāng sè, #d57306
+乳棕, rǔ zōng, #c9b481
+深灰, shēn huī, #353e35
+藏墨蓝, cáng mò lán, #27243c
+银箔, yín bó, #d4d4d4
+松皮色, sōng pí sè, #a45128
+丝爪花黄, sī zhǎo huā huáng, #fed927
+深瓦灰, shēn wǎ huī, #717774
+靛蓝, diàn lán, #201f3d
+雪灰, xuě huī, #ededef
+棕红, zōng hóng, #934824
+枝黄, zhī huáng, #cfb603
+暗灰, àn huī, #465146
+劳动布色, láo dòng bù sè, #1c2859
+立德粉, lì dé fěn, #ffffff
+赦石色, shè shí sè, #d17547
+深银灰, shēn yín huī, #c7bd9a
+油绿, yóu lǜ, #2b3c2f
+深毛蓝, shēn máo lán, #031025

@@ -22,7 +22,7 @@ def rgb_to_cmyk(r,g,b):
     # rescale to the range [0,cmyk_scale]
     return round(c*cmyk_scale), round(m*cmyk_scale), round(y*cmyk_scale), round(k*cmyk_scale)
 
-with open('cn-colors.txt') as fo:
+with open('cn-colors-new.txt') as fo:
     for line in fo:
         line = line.replace('\n', '')
         line = line.split(', ')
@@ -47,6 +47,6 @@ with open('cn-colors.txt') as fo:
         text += '  rgb: ' + rgb + '\n'
         text += '  cmyk: ' + cmyk + '\n'
 
-        f = open("cn-colors.yml","a+")
+        f = open("cn-colors-new.yml","a+")
         f.write(text+'\n')
         f.close()

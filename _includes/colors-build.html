@@ -3,7 +3,7 @@
     <div class="card-columns d-flex">
         <div class="row">
 
-        {% for color in site.data.jp-colors %}
+        {% for color in site.data.cn-colors-new %}
         <div class="col-2">
             <div class="card">
             <div class="card-body">
@@ -29,7 +29,7 @@
                     <div class="progress-bar bg-b" style="height: {{ color.rgb[2] | times:100 | divided_by: 255 }}%"></div>
                     </div>
                 </div>
-                <p class="card-text en-name">{{ color.en-name }}</p>
+                <p class="card-text en-name">{{ color.pinyin }}</p>
                 </div>
             </div>
             </div>
