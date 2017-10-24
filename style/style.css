@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 body {
     font-family: 'Crimson Text', 'Source Han Serif CN', 'source-han-serif-sc', serif;
+    background-image: url('texture.png');
 }
 .container { width: 100% !important; }
 #preloader {
