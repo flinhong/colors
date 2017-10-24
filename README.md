@@ -6,4 +6,3 @@
 2. [日本传统色彩](https://colors.flinhong.com/jp-colors.html)
 
 ![屏幕截图](https://raw.githubusercontent.com/flinhong/colors/master/screenshot.png)
-屏幕截图
