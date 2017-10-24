@@ -193,5 +193,29 @@ $( document ).ready(function() {
   $('#colors').animate({
       scrollTop: $(radE).offset().top - 15
   }, 100);
+
+  function loadGa() {
+    $.getScript( "https://www.googletagmanager.com/gtag/js?id=UA-82518311-4", function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-82518311-4');
+    });
+  }
+
+  function loadShare() {
+    $.getScript( "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55d1d3f27f6078ce", function() {
+      console.log('hi');
+    });
+  }
+
+  try {
+      loadGa();
+      loadShare();
+  }
+  catch(err) {
+      
+  }
   
 });
