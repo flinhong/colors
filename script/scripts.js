@@ -108,7 +108,11 @@ $( document ).ready(function() {
 
   $('#colors .col-2').each(function() {
     var thisE = $(this);
-    $(this).on('click', function() {
+    $(this).on('touchstart click', function(event) {
+      if(event.handled === false) return
+      event.stopPropagation();
+      event.preventDefault();
+      event.handled = true;
       $('#colors .change-color').removeClass('change-color');
       changeColor(thisE,1000);
     });

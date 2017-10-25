@@ -2,8 +2,8 @@
 body {
     font-family: 'Crimson Text', 'Source Han Serif CN', 'source-han-serif-sc', serif;
     background-image: url('texture.png');
-    transition: background-color 3s ease-in-out, color 0.2s ease;
-    -webkit-transition: background-color 3s ease-in-out, color 0.2s ease;
+    transition: background-color 3s ease;
+    -webkit-transition: background-color 3s ease;
 }
 .container { width: 100% !important; }
 #preloader {
@@ -89,6 +89,7 @@ body {
 #colors {
     height: 96vh;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 ::-webkit-scrollbar {
     width: 2px;
