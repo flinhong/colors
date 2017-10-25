@@ -25,11 +25,14 @@ $( document ).ready(function() {
     });
   }
 
-  setTimeout(cmykCircles, 500);
-  $.when( cmykCircles() ).done(function() {
-    $("#preloader").toggle("clip");
-    $("#preloader").remove();
-  }, 500);
+  $('#preloader').fadeOut(2000, function(){ $('#preloader').remove(); } );
+
+
+  // setTimeout(cmykCircles, 500);
+  // $.when( cmykCircles() ).done(function() {
+  //   $("#preloader").toggle("clip");
+  //   $("#preloader").remove();
+  // }, 500);
 
   // $('#colors .card, #details .card, #infors .card').show();
 
