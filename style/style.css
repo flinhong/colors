@@ -119,7 +119,6 @@ and (orientation : portrait) {
     border-width: 0;
     border-radius: 0;
     border-top-width: 5px;
-    display: none;
 }
 #colors .card-body {
     padding: 0.5rem 0.2rem 0 0.2rem;
@@ -166,7 +165,6 @@ and (orientation : portrait) {
 #details .card {
     border: 0;
     text-align: center;
-    display: none;
     min-width: 160px;
 }
 #details .card-body {
@@ -219,7 +217,6 @@ and (orientation : portrait) {
 #infors .card {
     border: 0;
     margin-top: 3rem;
-    display: none;
     text-align: center;
 }
 #infors h4.card-title {
@@ -265,6 +262,5 @@ footer p {
     font-size: 0.7rem;
 }
 #shareModal {
-    color: #1c1c1c;
     text-align: center;
 }

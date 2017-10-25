@@ -31,7 +31,7 @@ $( document ).ready(function() {
     $("#preloader").remove();
   }, 500);
 
-  $('#colors .card, #details .card, #infors .card').show();
+  // $('#colors .card, #details .card, #infors .card').show();
 
   var screenHeight = window.innerHeight;
   var portrait = false;
@@ -167,7 +167,7 @@ $( document ).ready(function() {
       $('#details .bg-b').text(rgb.b);
 
       $(element).addClass('change-color');
-      $('body').css('background-color', hex);
+      $('body, #shareModal .modal-content').css('background-color', hex);
       // $( "body" ).animate({
       //   backgroundColor: hex
       // }, animate);
