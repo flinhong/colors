@@ -3,6 +3,7 @@ body {
     font-family: 'Crimson Text', 'Source Han Serif CN', 'source-han-serif-sc', serif;
     background-image: url('texture.png');
     transition: background-color 2s ease-in-out, color 0.2s ease;
+    -webkit-transition: background-color 2s ease-in-out, color 0.2s ease;
 }
 .container { width: 100% !important; }
 #preloader {
