@@ -7,4 +7,4 @@
 
 ![屏幕截图](https://raw.githubusercontent.com/flinhong/colors/master/screenshot.png)
 
-能在 iPad 上正常显示了，就是很慢的样子……
+能在 iPad 上正常显示了，就这样了，不再弄更小尺寸的屏幕了。

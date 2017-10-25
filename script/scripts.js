@@ -109,8 +109,8 @@ $( document ).ready(function() {
     var card = $(this).closest('.card').css('border-color', hex);
   });
 
-  $('#colors .col-2').each(function() {
-    var thisE = $(this);
+  $('#colors .card-body').each(function() {
+    var thisE = $(this).closest('.col-2');
     $(this).on('touchstart click', function(event) {
       if(event.handled === false) return
       event.stopPropagation();
@@ -185,7 +185,7 @@ $( document ).ready(function() {
   }
   $('[data-toggle="tooltip"]').tooltip();
   $('#infors .card-footer p').each(function() {
-    $(this).on('click', function() {
+    $(this).on('touchstart click', function() {
       copyToClipboard($(this));
       $(this).tooltip('hide').attr('data-original-title', '已复制到剪贴板').tooltip('show');
     }).on('mouseleave', function() {
@@ -224,13 +224,11 @@ $( document ).ready(function() {
     $.getScript( "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59f00507d37dc0a5", function() {
     });
   }
-  $('footer p a span[data-toggle="modal"]').on('click', function(){
+  $('footer p a span[data-toggle="modal"]').on('touchstart click', function(){
     try {
         loadShare();
     }
     catch(err) {
-        
     }
-    return
   })
 });
