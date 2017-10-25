@@ -31,7 +31,7 @@ $( document ).ready(function() {
     $("#preloader").remove();
   }, 500);
 
-  $('#colors .card, #details .card, #infors .card').fadeIn('slow');
+  $('#colors .card, #details .card, #infors .card').show();
 
   var screenHeight = window.innerHeight;
   var portrait = false;
@@ -136,11 +136,12 @@ $( document ).ready(function() {
       } else {
         $('.main').css('background-color', 'transparent')
       }
-      if (animate == 0) {
-        $('#infors').find('.card-title').text(name)
-      } else {
-        $('#infors').find('.card-title').text(name).effect( "bounce", "slow" );
-      }
+      // if (animate == 0) {
+      //   $('#infors').find('.card-title').text(name)
+      // } else {
+      //   $('#infors').find('.card-title').text(name).effect( "bounce", "slow" );
+      // }
+      $('#infors').find('.card-title').text(name)
       $('#infors').find('.en-name').text(enname);
       $('#infors').find('.card-footer p:first').text(hex);
       $('#infors').find('.card-footer p:last').text(rgb_text);
@@ -162,10 +163,10 @@ $( document ).ready(function() {
       $('#details .bg-b').text(rgb.b);
 
       $(element).addClass('change-color');
-      // $('body').css('background-color', hex);
-      $( "body" ).animate({
-        backgroundColor: hex
-      }, animate);
+      $('body').css('background-color', hex);
+      // $( "body" ).animate({
+      //   backgroundColor: hex
+      // }, animate);
   }
 
   function copyToClipboard(element) {
