@@ -7,7 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="./favicon.ico" />
   <link rel="icon" type="image/png" href="./favicon.png" />
-  <meta property="og:image" content="./screenshot.png">
+  <html itemscope itemtype="http://schema.org/WebSite">
+  <meta name="description" content="青山绿水，白草红叶黄花。颜色都该有它好听的名字！" />
+  <meta itemprop="description" content="青山绿水，白草红叶黄花。颜色都该有它好听的名字！">
+  <meta itemprop="image" content="./screenshot.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://colors.flinhong.com/" />
+  <meta property="og:image" content="./screenshot.png" />
+  <meta property="og:description" content="青山绿水，白草红叶黄花。颜色都该有它好听的名字！" />
   <link rel="stylesheet" href="./style/bootstrap.min.css">
   <link rel="stylesheet" href="./style/style.css">
   <script src="https://use.typekit.net/gmq5kxy.js"></script>
@@ -5057,11 +5064,29 @@
       </div>
     </div>
     <footer>
-      <p>© 2017 Frank Lin. Some rights reserved. | <a href="./index.html" data-toggle="tooltip" data-placement="top" title="中国传统色（新版）">🇨🇳</a>  <a href="./jp-colors.html" data-toggle="tooltip" data-placement="top" title="日本传统色">🇯🇵</a>
+      <p>© 2017 Frank Lin. Some rights reserved. | <a href="./index.html" data-toggle="tooltip" data-placement="top" title="中国传统色（新版）">🇨🇳</a>  <a href="./jp-colors.html" data-toggle="tooltip" data-placement="top" title="日本传统色">🇯🇵</a> | <a href="javascript:void(0)"
+        data-toggle="tooltip" data-placement="top" title="分享本页"><span data-toggle="modal" data-target="#shareModal">分享</span></a>
         <br>参考：<a href="http://zhongguose.com" target="_blank">CHINESE COLORS</a>. 源码：<a href="https://github.com/flinhong/colors" target="_blank">GitHub Repository</a>
       </p>
     </footer>
-    <div class="addthis_sharing_toolbox"></div>
+    <div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="shareModalLabel">分享</h5> 
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="addthis_inline_share_toolbox"></div>
+            <p>觉得有意思，不妨使用支付宝赞助一下，多谢！
+              <br>
+              <img src="./qr-ali.jpg" alt="打赏一下" style="max-width:40%">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="./script/jquery.js"></script>
   <script src="./script/jquery-ui.min.js"></script>

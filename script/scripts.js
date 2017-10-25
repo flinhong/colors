@@ -1,5 +1,7 @@
 $( document ).ready(function() {
-
+  $(document).bind("mobileinit", function(){
+    $.mobile.touchOverflowEnabled = true;
+  });
   function cmykCircles() {
     $('#colors .dd-c:not(.initialed)').peity('donut', {
       fill: ["#0d5661", "#eee"],
@@ -204,18 +206,23 @@ $( document ).ready(function() {
     });
   }
 
-  function loadShare() {
-    $.getScript( "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55d1d3f27f6078ce", function() {
-      console.log('hi');
-    });
-  }
-
   try {
       loadGa();
-      loadShare();
   }
   catch(err) {
       
   }
-  
+  function loadShare() {
+    $.getScript( "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59f00507d37dc0a5", function() {
+    });
+  }
+  $('footer p a span[data-toggle="modal"]').on('click', function(){
+    try {
+        loadShare();
+    }
+    catch(err) {
+        
+    }
+    return
+  })
 });

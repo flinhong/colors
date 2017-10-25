@@ -192,14 +192,10 @@ and (orientation : portrait) {
     float: left;
     border-radius: 0;
 }
-@media screen and (max-width: 1366px) and (max-height: 768px) {
-    #details .vertical {
-        height: 12rem;
-    }
-}
 @media screen and (max-height: 800px) {
     #details .vertical {
-        height: 10rem;
+        width: 0.5rem;
+        height: 11rem;
     }
 }
 @media only screen 
@@ -267,4 +263,5 @@ footer p {
 }
 #shareModal {
     color: #1c1c1c;
+    text-align: center;
 }
