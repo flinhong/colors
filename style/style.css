@@ -264,3 +264,43 @@ footer p {
 #shareModal {
     text-align: center;
 }
+
+
+/* Portrait */
+@media only screen 
+and (max-device-width: 414px) 
+and (orientation: portrait) { 
+    #details, footer {
+        display: none;
+    }
+    #colors .col-2 {
+        margin-left: 3.5rem;
+    }
+    #infors .card-text, #infors .card-footer {
+        display: none;
+    }
+    #infors h4.card-title {
+        padding: 0 1rem 0 1rem;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+and (max-device-width: 736px) 
+and (orientation: landscape) { 
+    #details, footer {
+        display: none;
+    }
+    #colors .col-2 {
+        margin-left: 1rem;
+    }
+    #infors .card-text, #infors .card-footer {
+        display: none;
+    }
+    #infors h4.card-title {
+        margin-bottom: 0;
+        margin-top: -1rem;
+        font-size: 3rem;
+    }
+}
