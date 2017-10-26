@@ -215,7 +215,7 @@ $( document ).ready(function() {
   }
 
   try {
-      // loadGa();
+      loadGa();
   }
   catch(err) {
       
