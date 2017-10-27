@@ -1,4 +1,5 @@
 import json
+import pinyin
 
 def hex_to_rgb(hex):
     return tuple(int(hex[i:i+2], 16) for i in (0, 2 ,4))
@@ -22,15 +23,15 @@ def rgb_to_cmyk(r,g,b):
     # rescale to the range [0,cmyk_scale]
     return round(c*cmyk_scale), round(m*cmyk_scale), round(y*cmyk_scale), round(k*cmyk_scale)
 
-with open('cn-colors-new.txt') as fo:
+with open('colors.txt') as fo:
     for line in fo:
         line = line.replace('\n', '')
-        line = line.split(', ')
+        line = line.split('; ')
 
         name = line[0]
         print(name)
-        pinyin = line[1]
-        print(pinyin)
+        pinyinstr = pinyin.get(name, delimiter=" ")
+        print(pinyinstr)
 
         hex = line[2].lstrip('#')
 
@@ -42,11 +43,11 @@ with open('cn-colors-new.txt') as fo:
         cmyk = json.dumps(cmyk)
 
         text = '- name: "' + name + '"\n'
-        text += '  pinyin: "' + pinyin + '"\n'
+        text += '  pinyin: "' + pinyinstr + '"\n'
         text += '  hex: "#' + hex + '"\n'
         text += '  rgb: ' + rgb + '\n'
         text += '  cmyk: ' + cmyk + '\n'
 
-        f = open("cn-colors-new.yml","a+")
+        f = open("colors.yml","a+")
         f.write(text+'\n')
         f.close()
