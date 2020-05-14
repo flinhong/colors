@@ -23,7 +23,7 @@
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
-
+url: https://colors.flinhong.com 
 # Build settings
 markdown: kramdown
 # plugins:
@@ -45,10 +45,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor
+  - .bundle
   - README.md
   - package-lock.json
   - gulpfile.js

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.loli.net/css?family=Crimson+Text|Noto+Serif+SC:300&display=swap&subset=chinese-simplified,latin-ext');
 body {
-    font-family: 'Crimson Text', 'Source Han Serif CN', 'source-han-serif-sc', serif;
-    background-image: url('texture.png');
+    font-family: 'Crimson Text', 'Noto Serif SC', serif;
+    background-image: url('/style/texture.png');
     transition: background-color 3s ease;
     -webkit-transition: background-color 3s ease;
 }
@@ -114,6 +114,9 @@ and (orientation : portrait) {
 #colors .col-2 .col-12 {
     padding: 0;
 }
+#colors .col-12:nth-child(2) {
+    margin-top: .5rem;
+}
 #colors .card {
     border-width: 0;
     border-radius: 0;
@@ -129,6 +132,8 @@ and (orientation : portrait) {
     writing-mode: vertical-rl;
     margin: 0 0.2rem 0 0;
     bottom: 0.5rem;
+    right: 0;
+    text-align: right;
 }
 #colors .hex-value {
     writing-mode: vertical-rl;
@@ -243,6 +248,26 @@ and (orientation : portrait) {
         padding: 1rem 1rem;
     }
 }
+@media (max-width: 768px) {
+    #details {
+        display: none;
+    }
+    #infors h4.card-title {
+        padding: 0;
+    }
+}
+@media (max-width: 540px) {
+    #colors {
+        flex: 1;
+        max-width: 100%;
+    }
+    #infors {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
 #infors .card-footer .card-text {
     font-size: 1.1rem;
     margin: 0;
@@ -303,4 +328,21 @@ and (orientation: landscape) {
         margin-top: -1rem;
         font-size: 3rem;
     }
+}
+
+/* sns list */
+ul.c-sns__list {
+    padding: 0;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.c-sns__list li {
+    display: inline-block;
+    padding: 0 .5rem;
+}
+
+.share-toolbox img {
+    max-width: 350px;
 }

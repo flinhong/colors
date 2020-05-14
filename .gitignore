@@ -1,4 +1,6 @@
 node_modules
+vendor
 .DS_Store
 .publish
-public
+.bundle
+.jekyll-cache

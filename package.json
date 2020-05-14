@@ -1,0 +1,31 @@
+{
+  "name": "chinese-colors",
+  "version": "1.0.1",
+  "description": "中国传统颜色",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build; gulp minify-css; gulp minify-js; gulp minify-html; gulp pretty-html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flinhong/colors.git"
+  },
+  "author": "Frank Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flinhong/colors/issues"
+  },
+  "homepage": "https://github.com/flinhong/colors#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-pretty-html": "^2.0.10",
+    "gulp-uglify": "^3.0.2",
+    "readable-stream": "^3.6.0"
+  }
+}

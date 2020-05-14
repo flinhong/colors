@@ -1,10 +1,32 @@
 <!-- Modal -->
-<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModalLabel" aria-hidden="true">
+<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body">
-        <div class="addthis_inline_share_toolbox"></div>
-        <p>觉得有意思，不妨给我支付宝宝加点餐，😊<br><img src="/qr-ali.jpg" alt="打赏一下" style="max-width:40%"></p>
+        <div class="share-toolbox">
+          <ul class="c-sns__list">
+            <li class="c-sns__item weibo-share-button">
+              <a href="http://service.weibo.com/share/share.php?title={{ page.title }}&url={{ page.url | prepend: site.url }}{% if page.image %}&pic={{ page.image }}{% endif %}&searchPic=true&style=simple"
+                target="_blank">微博</a>
+            </li>
+            <li class="c-sns__item twitter-share-button">
+              <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | prepend: site.url }}&via={{ site.twitter.username }}&related={{ site.twitter.username }}"
+                target="_blank">Twitter</a>
+            </li>
+            <li class="c-sns__item facebook-share-button">
+              <a href="https://facebook.com/sharer.php?u={{ page.url | prepend: site.url }}"
+                target="_blank">Facebook</a>
+            </li>
+            <li class="c-sns__item douban-share-button">
+              <a href="https://www.douban.com/share/service?name=&href={{ page.url | prepend: site.url }}%3Ablank{% if page.image %}&image={{ page.image }}{% endif %}&updated=&bm=1&url={{ page.url | prepend: site.url }}%3Ablank&title={{ page.title }}&sel=&v=1"
+                target="_blank">豆瓣</a>
+            </li>
+          </ul>
+          <p>求打赏～<br>
+            <img src="/ali-qr.png" alt="alipay qrcode">
+          </p>
+        </div>
       </div>
     </div>
   </div>

@@ -6,10 +6,11 @@ permalink: /
 <!doctype html>
 <html lang="zh_CN">
   <head>
-    <title>中国传统颜色 - 颜色都该有它好听的名字！</title>
+    <title>中国传统颜色 | Frank inDev.</title>
     {% include head.html %}
   </head>
   <body>
+    {% include gtag-body.html %}
     <div id="preloader">
       <div id="loader"></div>
     </div>
@@ -65,7 +66,7 @@ permalink: /
         </div>
       </div>
       <footer>
-        <p>© 2017 Frank Lin. Some rights reserved. | <a href="/jp-colors/" data-toggle="tooltip" data-placement="top" title="日本传统色">🇯🇵 </a> | 
+        <p>© {{ site.time | date: "%Y"}} Frank Lin. Some rights reserved. | <a href="/jp-colors/" data-toggle="tooltip" data-placement="top" title="日本传统色">🇯🇵 </a> | 
           <a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="分享本页"><span data-toggle="modal" data-target="#shareModal">分享</span></a>
           <br>参考：<a href="http://htmlcss.jp/color/china.html" target="_blank">中国の伝統色320色</a>. 源码：<a href="https://github.com/flinhong/colors" target="_blank">GitHub Repository</a>
         </p>

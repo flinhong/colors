@@ -1,39 +1,47 @@
-var gulp = require('gulp'),
-    runSequence = require('run-sequence'),
-    cssmin = require('gulp-clean-css'),
-    jsmin = require('gulp-uglify'),
-    htmlmin = require('gulp-cleanhtml'),
-    prettify = require('gulp-html-prettify');
+let gulp = require('gulp');
+let cleancss = require('gulp-clean-css');
+let uglify = require('gulp-uglify');
+let pipeline = require('readable-stream').pipeline;
+let htmlMin = require('gulp-htmlmin');
+let prettyHtml = require('gulp-pretty-html');
 
-gulp.task('min-css', function(){
-return gulp.src('docs/**/*.css')
-        .pipe(cssmin({
-        level: 2
+gulp.task('minify-css', () => {
+    return gulp.src('docs/**/*.css')
+        .pipe(cleancss({
+            level: 1
         }))
         .pipe(gulp.dest('docs/'))
 });
 
-gulp.task('min-js', function(){
-return gulp.src('docs/**/*.js')
-        .pipe(jsmin())
-        .pipe(gulp.dest('docs/'))
+gulp.task('minify-js', function () {
+    return pipeline(
+        gulp.src([
+            'docs/**/*.js'
+        ]),
+        uglify({
+            mangle: {
+                reserved: ['user']
+            }
+        }),
+        gulp.dest('docs/')
+    )
 });
 
-gulp.task('min-html', function(){
-return gulp.src('docs/**/*.html')
-     .pipe(htmlmin({
-       collapseWhitespace: true,
-       removeComments: true
-     }))
-     .pipe(gulp.dest('docs/'))
+gulp.task('minify-html', () => {
+    return gulp.src('docs/**/*.html')
+        .pipe(htmlMin({
+            collapseWhitespace: true,
+            removeComments: true
+        }))
+        .pipe(gulp.dest('docs/'));
 });
 
-gulp.task('html-pretty', function() {
-return gulp.src('docs/**/*.html')
-        .pipe(prettify({indent_char: ' ', indent_size: 2}))
-        .pipe(gulp.dest('docs/'))
-});
-
-gulp.task('min-all', function( callback ){
-    runSequence('min-css', 'min-js', 'min-html', 'html-pretty', callback);
+gulp.task('pretty-html', function () {
+    return gulp.src('docs/**/*.html')
+        .pipe(prettyHtml({
+            indent_size: 2,
+            indent_char: ' ',
+            unformatted: ['code', 'pre', 'em', 'strong', 'span', 'i', 'b', 'br', 'figure']
+        }))
+        .pipe(gulp.dest('docs/'));
 });

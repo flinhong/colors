@@ -14,5 +14,3 @@
 ## 网站托管
 
 生成的静态网页在 `docs` 目录下。
-
-网站现在转移到 [Netlify](https://netlify.com) 进行托管了，比起 GitHub Pages 有了 自定义域名的 https 的支持。
