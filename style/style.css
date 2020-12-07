@@ -1,4 +1,5 @@
-@import url('https://fonts.loli.net/css?family=Crimson+Text|Noto+Serif+SC:300&display=swap&subset=chinese-simplified,latin-ext');
+/* @import url('https://fonts.loli.net/css?family=Crimson+Text|Noto+Serif+SC:300&display=swap&subset=chinese-simplified,latin-ext'); */
+@import url('https://fonts.frankindev.com/css2?family=Crimson+Text:ital@0;1&family=Noto+Serif+SC:wght@300&display=swap');
 body {
     font-family: 'Crimson Text', 'Noto Serif SC', serif;
     background-image: url('/style/texture.png');
