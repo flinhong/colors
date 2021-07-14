@@ -1,4 +1,4 @@
-@import url('https://cdn.frankindev.com/css2?family=Crimson+Text:ital@0;1&family=Noto+Serif+SC&display=swap');
+@import url('https://cdn.frankindev.com/css2?family=Crimson+Text&family=Noto+Serif+SC&display=swap');
 body {
     font-family: 'Crimson Text', 'Noto Serif SC', serif;
     background-image: url('/style/texture.png');
